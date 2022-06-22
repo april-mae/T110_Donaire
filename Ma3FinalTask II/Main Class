@@ -6,7 +6,7 @@ public class Main_II {
 		gui.labels();
 		gui.passwordField();
 		gui.textField();
-		gui.bluetoothButtons();
+		gui.radioButtons();
 		gui.frame();
 	}
 }
