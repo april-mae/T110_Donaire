@@ -3,7 +3,7 @@ import javax.swing.*;
 
 public class GUI {
 	JFrame frame;
-	JBluetoothButton rb1, rb2, rb3;
+	JRadioButton rb1, rb2, rb3;
 	JLabel label1, label2;
 	JTextField field1;
 	JPasswordField password1;
@@ -73,15 +73,15 @@ public class GUI {
 	}
 
 	public void bluetoothButtons() {
-		rb1 = new JBluetoothButton("BSIT");
+		rb1 = new JRadioButton("BSIT");
 		rb1.setBackground(Color.DARK_GRAY);
 		rb1.setForeground(Color.white);
 
-		rb2 = new JBluetoothButton("BSEMC");
+		rb2 = new JRadioButton("BSEMC");
 		rb2.setBackground(Color.DARK_GRAY);
 		rb2.setForeground(Color.white);
 
-		rb3 = new JBluetoothButton("MSIT");
+		rb3 = new JRadioButton("MSIT");
 		rb3.setBackground(Color.DARK_GRAY);
 		rb3.setForeground(Color.white);
 	}
